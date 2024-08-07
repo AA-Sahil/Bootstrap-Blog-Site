@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my bolg</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- navigation bar  -->
+
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-blog fa-2xl me-2 text-primary"></i>
+                B5-Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto pt-3 pt-lg-0 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="search-width form-control-lg me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <a href="search.html" class="btn btn-lg btn-outline-primary"> <i
+                            class="fa-brands fa-searchengin fa-xl search-icon"></i> search</a>
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- cover img  -->
+
+    <div class="container my-3">
+        <img class="cover-img mt-5 img-fluid"
+            src="https://www.shutterstock.com/image-illustration/website-internet-contact-us-page-260nw-1056676853.jpg"
+            alt="">
+    </div>
+
+
+
+    <!-- main area-------------------------------- -->
+
+
+    <main class="container">
+
+        <div class="row px-3">
+
+            <div class="col-lg-8 offset-lg-2 my-4 p-4 bg-light-subtle text-light rounded-3" data-bs-theme="dark">
+                <h3 class="text-capitalize my-4 text-center fw-bolder">contact with us</h3>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label" for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" placeholder="First name"
+                            aria-label="First name">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lname" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Last name"
+                            aria-label="Last name">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="abc@xyz.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="---------------">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Cox-Bazar</option>
+                            <option>Sylhet</option>
+                            <option>Rangpur</option>
+                            <option>Dhaka</option>
+                            <option>Kishoregonj</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip" placeholder=" 60601">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputdate" class="form-label">Date-time</label>
+                        <input type="datetime-local" class="form-control" id="inputdate" placeholder="">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Messege</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder=".........................."></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-primary">Send Message</button>
+                    </div>
+                </form>
+
+                <!-- article content ------------------------------  -->
+
+
+
+
+
+                <!-- article pagination----------------  -->
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="w-100 footer" style="background-color: navy;">
+        <div class="container text-white p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>Bootstrap-5 blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magni tempore molestiae eligendi
+                        laborum rerum quod ea vero, vitae aspernatur?</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex ms-lg-5 foot-link">
+                        <div class="social-link">
+                            <a href="about.html"
+                                class="me-md-1 me-sm-0 text-decoration-none text-secondary fw-bold">ABOUT-US</a>
+                            <a href="contact.html"
+                                class="ms-md-2 ms-0 text-decoration-none text-secondary fw-bold">CONTACT</a>
+                        </div>
+
+                        <div class="social-icon">
+                            <a href="" class="mx-md-4 mx-sm-0"><i class="fa-brands fa-linkedin fa-2xl"
+                                    style="color: white;"></i></a>
+                            <a href="" class="me-md-4 mx-sm-3 mx-md-0 mx-3"><i
+                                    class="fa-brands fa-square-facebook fa-2xl" style="color: white;"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../bootstrap.bundle.js"></script>
+</body>
+
+</html>

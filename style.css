@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  background-color: #fbfaf5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .navbar {
+  height: 80px;
+} */
+
+.search-width {
+  width: 800px;
+  background-color: antiquewhite;
+}
+
+/* .search-icon:hover {
+  color: white;
+} */
+.blog-banner img {
+  width: 100%;
+  height: 650px;
+  margin-top: 80px;
+}
+
+.card-img-top,
+.cover-img {
+  width: 100%;
+  height: 270px !important;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  transition: all 0.5s ease;
+}
+
+.articles h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.articles h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.articles p {
+  color: #333;
+}
+
+.articles img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hover-foot:hover {
+  color: white;
+}
+
+/* image overlay------------------------ */
+
+.overlay {
+  position: relative;
+}
+
+.text-overly {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+  background-color: rgba(0, 0, 0, 0.604);
+}
+
+.overlay:hover .text-overly {
+  opacity: 1;
+}
+
+.text {
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* custom scrollbar----------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fbfaf5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: antiquewhite;
+}
+
+/* responsive------------------------------ */
+
+@media only screen and (max-width: 992px) {
+  .blog-banner img {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .blog-banner img {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blog-banner img {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .blog-banner img {
+    height: 200px;
+  }
+  .cover-img {
+    max-height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .foot-link {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .social-link {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .social-link a {
+    margin: 5px 0;
+  }
+  .social-icon {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .search-width {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .search-width {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .search-width {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .search-width {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .search-width {
+    width: 200px;
+  }
+}

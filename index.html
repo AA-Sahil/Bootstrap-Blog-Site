@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my bolg</title>
+</head>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap.css">
+
+<body class="main-container">
+    <!-- navigation bar  -->
+
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa-solid fa-blog fa-2xl me-2 text-primary"></i>
+                B5-Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto pt-3 pt-lg-0 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="search-width form-control-lg me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <a href="search.html" class="btn btn-lg btn-outline-primary"> <i
+                            class="fa-brands fa-searchengin fa-xl search-icon"></i> search</a>
+                    <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- style="width: 900px" ; -->
+    <!-- banner img ------------------------------------- -->
+
+
+
+    <div class="blog-banner">
+        <img class="img-fluid" src="./img/Grey Elegant Aesthetic Modern Concept Presentation Blog Banner.png" alt="">
+    </div>
+
+
+    <!-- featured area--------------- -->
+
+
+    <div class="container my-md-4 my-sm-0 mt-md-5 mt-sm-3 ">
+        <div class="row py-md-3 py-sm-0 mt-3">
+            <h3>Featured Posts</h3>
+        </div>
+        <div class="row g-4 feature-section">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3 mt-lg-0" style="width:100%; height: 470px;">
+                    <img src="./img/barley-field-1684052_1280.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">blog post 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                            quibusdam.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3 mt-lg-0" style="width:100%; height: 470px;">
+                    <img src="https://png.pngtree.com/background/20230401/original/pngtree-summer-beach-beach-umbrella-picture-image_2248016.jpg"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">blog post 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                            quibusdam.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card mt-3 mt-lg-0" style="width:100%; height: 470px;">
+                    <img src="https://img.freepik.com/premium-photo/red-umbrella-rain-with-word-rain-it_865967-40999.jpg"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">blog post 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                            quibusdam.
+                        </p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- main area-------------------------------- -->
+
+
+    <main class="container my-5">
+
+        <div class="row">
+
+            <!-- articles------------------------ -->
+            <div class="col-lg-8 ">
+
+                <!-- article list  -->
+                <h3>Recent Articles</h3>
+                <div class="list-group  mt-4" data-bs-theme="dark">
+                    <a href="./article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="./article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="./article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                    <a href="article.html" class="list-group-item list-group-item-action mt-1">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">blog 1</h4>
+                            <small class="text-body-secondary">3 days ago</small>
+                        </div>
+                        <h5 class="mb-1">Some placeholder content in.</h5>
+                        <small class="text-body-secondary">And some muted small print. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum sequi aliquid aspernatur odit nisi illum. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</small>
+                    </a>
+                </div>
+
+                <!-- article pagination----------------  -->
+
+                <div class="mt-2 ">
+                    <ul class="pagination pagination justify-content-center">
+                        <li class="page-item"><a class="page-link bg-dark" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link bg-dark" href="#">Next</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <!--right side bar --------------------------------  -->
+            <div class="col-lg-4 ">
+                <h3>Advertisement</h3>
+                <div class="my-4 overlay">
+                    <img style="height:250px; width: 100%;" class="rounded-2 shadow img-fluid"
+                        src="https://mir-s3-cdn-cf.behance.net/projects/404/aa691d189901215.Y3JvcCwxMTA4LDg2NywxNDUsMzI.jpg"
+                        alt="">
+                    <div class="text-overly">
+                        <p class="text fs-5">
+                            Want some!--><i class="fa-solid fa-face-grin-tongue-wink fa-xl"
+                                style="color: rgb(229, 255, 0); font-size: 30px;"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="my-4 overlay">
+                    <img style="height:250px; width: 100%;" class="rounded-2 shadow img-fluid"
+                        src="https://eckleburgseyes.weebly.com/uploads/5/2/3/3/52331733/1269070.png?544" alt="">
+                    <div class="text-overly">
+                        <p class="text">
+                            <span style="color: red; font-size: 25px; width: 500px;"><i
+                                    class="fa-solid fa-user-doctor fa-2xl" style="color: #ffffff;"></i> <br>dr. t. j.
+                                eckleburg</span> <br> <span style="font-size: 15px;">make an
+                                appointment</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Populer Aticles -->
+
+                <h3>Populer Aticles</h3>
+                <div class="list-group mt-3" data-bs-theme="dark">
+                    <button type="button" class="list-group-item list-group-item-action" aria-current="true">The
+                        current button</button>
+                    <button type="button" class="list-group-item list-group-item-action">A second button
+                        item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A third button
+                        item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A fourth button
+                        item</button>
+                    <button type="button" class="list-group-item list-group-item-action">A disabled button
+                        item</button>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer-------------------------------- -->
+
+    <footer class="w-100 footer" style="background-color: navy;">
+        <div class="container text-white p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3>Bootstrap-5 blog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magni tempore molestiae eligendi
+                        laborum rerum quod ea vero, vitae aspernatur?</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex ms-lg-5 foot-link">
+                        <div class="social-link">
+                            <a href="about.html"
+                                class="me-md-1 me-sm-0 text-decoration-none text-secondary fw-bold">ABOUT-US</a>
+                            <a href="contact.html"
+                                class="ms-md-2 ms-0 text-decoration-none text-secondary fw-bold">CONTACT</a>
+                        </div>
+
+                        <div class="social-icon">
+                            <a href="" class="mx-md-4 mx-sm-0"><i class="fa-brands fa-linkedin fa-2xl"
+                                    style="color: white;"></i></a>
+                            <a href="" class="me-md-4 mx-sm-3 mx-md-0 mx-3"><i
+                                    class="fa-brands fa-square-facebook fa-2xl" style="color: white;"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap.bundle.js"></script>
+</body>
+
+</html>
